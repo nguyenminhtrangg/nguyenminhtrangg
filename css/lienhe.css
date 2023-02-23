@@ -1,0 +1,104 @@
+. {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+  }
+  
+  
+  .header img {
+    width: 200px;
+    position: relative;
+  }
+  .header {
+    background-color: black;
+  }
+  .header .menu-right {
+    top: 0;
+    position: absolute;
+    right: 50px;
+    padding-top: 35px;
+  }
+  .header .menu-left a {
+    color: white;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-family: 'Roboto', sans-serif;
+    padding: 10px;
+  }
+  .header .menu-left {
+    position: absolute;
+    top: 0;
+    left: 600px;
+    padding-top: 30px;
+  }
+  a:hover {
+    background-color:darkslategrey
+  }
+  .header .menu-right a {
+    color: white;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-family: 'Roboto', sans-serif;
+    padding: 10px;
+  }
+  .h3{
+    color:white;
+  }
+
+    .container{
+      width: 1200px;
+      margin: 0 auto;
+    }
+    
+
+        .nd{
+          text-align: center;
+        }
+  footer {
+    width: 100%;
+    background: black;
+    height: 322px;
+    margin-top: 338px;
+    padding: 0px 63px;
+    padding-top: 57px;
+    display: flex;
+    justify-content: space-around;
+  }
+  
+  .ftb {
+    width: 3000px;
+    color: white;
+  }
+  
+  footer .ftb .quick-menu {
+    margin-top: 40px;
+  }
+  
+  footer .ftb .quick-menu .item {
+    margin-bottom: 12px;
+  }
+  
+  footer .ftb .quick-menu.item a {
+    color:#ffffff;
+    text-decoration: none;
+  }
+  
+  footer .ftb form input {
+    width: 290px;
+    height: 40px;
+    background: transparent;
+    padding-left: 20px;
+    color:#ffffff;
+    margin-top: 30px;
+  }
+  
+  footer .ftb form button {
+    background: black;
+    box-shadow: 5px 5px 4px rgba(0, 0, 0.25);
+    width: 160px;
+    height: 39px;
+    margin-top: 30px;
+    color:#ffffff;
+  }
+  
